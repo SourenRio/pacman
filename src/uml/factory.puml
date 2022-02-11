@@ -1,0 +1,19 @@
+@startuml Factory
+interface MaitreJedi {
+     + mediter():void  
+     + combattre(): void
+}
+class LukeSkywlaker 
+class Yoda 
+class Player
+class MaitreJediFactory {
+     # getMaitreJedi(TypeMaitre type): MaitreJedi
+}
+enum TypeMaitre
+
+MaitreJedi <|.. LukeSkywlaker
+MaitreJedi <|..Yoda
+
+Player ..> MaitreJedi : joue avec
+
+@enduml

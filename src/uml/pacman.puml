@@ -1,0 +1,20 @@
+@startuml Pacman
+
+Interface IpacGomme
+
+class PacGommeNormale
+Class PacGommeBoost
+
+Class Pacman
+Class Labyrinthe
+
+Class PacGommeFactory {
+    # getPacGomme( ): IPacman
+}
+
+
+IpacGomme <|-- PacGommeBoost
+IpacGomme <|-- PacGommeNormale
+
+Pacman ..> Labyrinthe : est dans un
+Labyrinthe --> IPacGomme : à des

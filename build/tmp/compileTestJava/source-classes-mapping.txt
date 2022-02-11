@@ -1,0 +1,2 @@
+com/tetras/LibraryTest.java
+ com.tetras.LibraryTest

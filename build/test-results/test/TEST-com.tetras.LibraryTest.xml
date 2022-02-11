@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tetras.LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-06T09:11:59" hostname="INFO7-12" time="0.061">
+  <properties/>
+  <testcase name="testSomeLibraryMethod()" classname="com.tetras.LibraryTest" time="0.061"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

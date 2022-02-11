@@ -1,0 +1,5 @@
+J'ai utiliser comme design patern
+
+-singleton pour Pacman
+
+-Factory pour pouvoir changer entre PacGommeNormale et PacGommeBoost

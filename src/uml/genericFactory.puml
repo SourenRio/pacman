@@ -1,0 +1,18 @@
+@startuml GenericFactory
+class Client
+interface Component {
+     + operation(): void
+}
+class ConcreteComponent1
+class ConcreteComponent2
+class Factory {
+     # getComponent(Type type): Compenent
+}
+enum TypeComponent
+
+Component <|.. ConcreteComponent1
+Component <|..ConcreteComponent2
+
+Client ..> Factory : uses
+
+@enduml[]
